@@ -9,6 +9,12 @@ package PayStrategyPattern;
  *
  * @author Phạm Đức Mạnh
  */
-public class PayATM {
-    
+public class PayATM extends Payment{
+    String soThe;
+    String nganHang;
+
+    @Override
+    public void Pay(Order order) {
+        super.Pay(order); //To change body of generated methods, choose Tools | Templates.
+    }
 }

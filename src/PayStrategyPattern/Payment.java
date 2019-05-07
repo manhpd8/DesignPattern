@@ -10,5 +10,9 @@ package PayStrategyPattern;
  * @author Phạm Đức Mạnh
  */
 public class Payment {
-    
+    int id;
+    String kieuTra;
+    public void Pay(Order order){
+        
+    }
 }

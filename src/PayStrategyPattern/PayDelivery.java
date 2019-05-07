@@ -5,10 +5,17 @@
  */
 package PayStrategyPattern;
 
+import java.util.Date;
+
 /**
  *
  * @author Phạm Đức Mạnh
  */
-public class PayDelivery {
-    
+public class PayDelivery extends Payment{
+    Date ngayTra;
+
+    @Override
+    public void Pay(Order order) {
+        super.Pay(order); //To change body of generated methods, choose Tools | Templates.
+    }
 }
