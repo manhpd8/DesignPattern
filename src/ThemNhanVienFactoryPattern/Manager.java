@@ -9,12 +9,10 @@ package ThemNhanVienFactoryPattern;
  *
  * @author Phạm Đức Mạnh
  */
-public class NVBanHang extends NhanVien{
-    
-    @Override
-    public boolean themNhanVien() {
-        //code to do them nhan vien ban hang
-        return super.themNhanVien(); //To change body of generated methods, choose Tools | Templates.
+public class Manager {
+    public static void main(String[] args) {
+        new NhanVienFactory().themNhanVien("NVBH");
+        new NhanVienFactory().themNhanVien("NVK");
+        new NhanVienFactory().themNhanVien("NVGH");
     }
-    
 }
