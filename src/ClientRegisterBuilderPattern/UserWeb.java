@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Director;
+package ClientRegisterBuilderPattern;
 
-import ConcreteBuilder.ClientBuilderImpl;
-import Product.Client;
+import ClientRegisterBuilderPattern.ClientBuilderImpl;
 
 /**
  *
